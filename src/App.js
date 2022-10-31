@@ -1,20 +1,23 @@
 import logo from './logo.svg';
 import './App.css';
 
+
+
+import Header from './components/Header';
+import Menu from './components/Menu';
+
 // function como la primera visualizacion de la pagina
 function App() {
+
+  // JS base
+
   return (
     <div className="App">
-      <nav>
-        <a href="www.google.com">Google</a>
-      </nav>
-      <section>
-        <h1>Este es mi restaurant</h1>
-        <p>Lo mejor de la cocina venezolana</p>
-      </section>s
-      <footer>
-        <p>footer con enlaces</p>
-      </footer>
+
+      <Header />
+
+      <Menu />
+
     </div>
   );
 }
