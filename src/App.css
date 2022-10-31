@@ -1,7 +1,9 @@
 .App {
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
-
 
 #title {
   color: brown
@@ -22,4 +24,11 @@
 
 .card img {
   border-radius: 10px;
+}
+
+.react-player video {
+  position: relative;
+  left: 0;
+  top: 0;
+  transform: none;
 }

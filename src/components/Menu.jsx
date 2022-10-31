@@ -26,9 +26,9 @@ function Menu() {
         <img src={imgPie} alt="pie" />
       </div> */}
 
-      <FoodCard foodName="Tequeños" foodImg={imgTequeño}/>
-      <FoodCard foodName="Pabellon Criollo" foodImg={imgPabellon}/>
-      <FoodCard foodName="Pie de Limon" foodImg={imgPie}/>
+      <FoodCard foodName="Tequeños" foodImg={imgTequeño} cardColor="yellow"/>
+      <FoodCard foodName="Pabellon Criollo" foodImg={imgPabellon} cardColor="blue"/>
+      <FoodCard foodName="Pie de Limon" foodImg={imgPie} cardColor="red"/>
 
       {/* props es la forma de traer data desde la ejecucion del componente hasta su renderizacion */}
       {/* props es lo equivalente a argumentos/parametros de componentes */}
