@@ -1,23 +1,20 @@
 import logo from './logo.svg';
 import './App.css';
 
+// function como la primera visualizacion de la pagina
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <nav>
+        <a href="www.google.com">Google</a>
+      </nav>
+      <section>
+        <h1>Este es mi restaurant</h1>
+        <p>Lo mejor de la cocina venezolana</p>
+      </section>s
+      <footer>
+        <p>footer con enlaces</p>
+      </footer>
     </div>
   );
 }
